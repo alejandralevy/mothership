@@ -1,21 +1,20 @@
-import { createTheme } from "@mui/system";
-
-const MothershipTheme = createTheme({
-  palette: {
-    primary: {
-      50: "#F1F7FD",
-      100: "#E4EEFC",
-      200: "#CCE1FA",
-      300: "#99C4F4",
-      main: "#4a00fa",
-    },
-    secondary: {
-      main: "#CCE1FA",
-    },
+import { palette, MuiButton } from './index'
+import { createTheme, ThemeOptions } from '@mui/material/styles'
+const MothershipTheme: ThemeOptions = {
+  palette,
+  typography: {
+    button: {
+      textTransform: 'none',
+      fontWeight: 400
+    }
   },
   shape: {
     borderRadius: 8,
   },
-});
+  components: {
+    // Each customized component destructured assignment here.
+    ...MuiButton
+  }
+}
 
-export default MothershipTheme;
+export default createTheme(MothershipTheme);
