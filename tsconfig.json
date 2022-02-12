@@ -21,6 +21,5 @@
     "downlevelIteration": true,
     "baseUrl": "."
   },
-  "include": ["src", "src/themes.ts", "src/GlobalStyle.tsx"],
-  "files": ["globals.d.ts"]
+  "include": ["src", "src/themes.ts", "src/GlobalStyle.tsx"]
 }

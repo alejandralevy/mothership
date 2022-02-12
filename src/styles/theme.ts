@@ -1,20 +1,14 @@
-import { palette, MuiButton } from './index'
-import { createTheme, ThemeOptions } from '@mui/material/styles'
+import { palette, MuiButton, shape, typography, shadows } from "./index";
+import { createTheme, ThemeOptions } from "@mui/material/styles";
+
 const MothershipTheme: ThemeOptions = {
   palette,
-  typography: {
-    button: {
-      textTransform: 'none',
-      fontWeight: 400
-    }
-  },
-  shape: {
-    borderRadius: 8,
-  },
+  typography,
+  shadows,
+  shape,
   components: {
-    // Each customized component destructured assignment here.
-    ...MuiButton
-  }
-}
+    ...MuiButton,
+  },
+};
 
 export default createTheme(MothershipTheme);
