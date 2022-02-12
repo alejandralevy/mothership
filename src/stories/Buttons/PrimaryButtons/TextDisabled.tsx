@@ -1,32 +1,34 @@
 import { Button, Box } from "@mui/material";
 import React from "react";
 
-export const PrimaryButtonTextTemplate = () => (
+export const PrimaryTextDisabled = () => (
   <>
     <Box marginBottom="8px">
-      <Button variant="text" size="extraSmall">
+      <Button variant="text" disabled size="extraSmall">
         CTA Button
       </Button>
     </Box>
 
     <Box marginBottom="8px">
-      <Button variant="text" size="small">
+      <Button variant="text" disabled size="small">
         CTA Button
       </Button>
     </Box>
 
     <Box marginBottom="8px">
-      <Button variant="text">CTA Button</Button>
-    </Box>
-
-    <Box marginBottom="8px">
-      <Button variant="text" size="large">
+      <Button variant="text" disabled>
         CTA Button
       </Button>
     </Box>
 
     <Box marginBottom="8px">
-      <Button variant="text" size="extraLarge">
+      <Button variant="text" disabled size="large">
+        CTA Button
+      </Button>
+    </Box>
+
+    <Box marginBottom="8px">
+      <Button variant="text" disabled size="extraLarge">
         CTA Button
       </Button>
     </Box>

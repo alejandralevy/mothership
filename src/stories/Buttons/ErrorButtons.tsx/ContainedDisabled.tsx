@@ -1,43 +1,36 @@
 import { Button, Box } from "@mui/material";
 import React from "react";
 
-export default {
-  title: "DesignSystem/ErrorButton",
-  component: Button,
-};
-
-const Template = () => (
+export const ErrorContainedDisabled = () => (
   <>
     <Box marginBottom="8px">
-      <Button variant="contained" color="error" size="extraSmall">
+      <Button variant="contained" color="error" disabled size="extraSmall">
         CTA Button
       </Button>
     </Box>
 
     <Box marginBottom="8px">
-      <Button variant="contained" color="error" size="small">
+      <Button variant="contained" color="error" disabled size="small">
         CTA Button
       </Button>
     </Box>
 
     <Box marginBottom="8px">
-      <Button variant="contained" color="error">
+      <Button variant="contained" color="error" disabled>
         CTA Button
       </Button>
     </Box>
 
     <Box marginBottom="8px">
-      <Button variant="contained" color="error" size="large">
+      <Button variant="contained" color="error" disabled size="large">
         CTA Button
       </Button>
     </Box>
 
     <Box marginBottom="8px">
-      <Button variant="contained" color="error" size="extraLarge">
+      <Button variant="contained" color="error" disabled size="extraLarge">
         CTA Button
       </Button>
     </Box>
   </>
 );
-
-export const ErrorButton = Template.bind({});

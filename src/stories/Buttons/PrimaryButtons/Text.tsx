@@ -1,32 +1,32 @@
 import { Button, Box } from "@mui/material";
 import React from "react";
 
-export const PrimaryButtonOutlinedTemplate = () => (
+export const PrimaryText = () => (
   <>
     <Box marginBottom="8px">
-      <Button variant="outlined" size="extraSmall">
+      <Button variant="text" size="extraSmall">
         CTA Button
       </Button>
     </Box>
 
     <Box marginBottom="8px">
-      <Button variant="outlined" size="small">
+      <Button variant="text" size="small">
         CTA Button
       </Button>
     </Box>
 
     <Box marginBottom="8px">
-      <Button variant="outlined">CTA Button</Button>
+      <Button variant="text">CTA Button</Button>
     </Box>
 
     <Box marginBottom="8px">
-      <Button variant="outlined" size="large">
+      <Button variant="text" size="large">
         CTA Button
       </Button>
     </Box>
 
     <Box marginBottom="8px">
-      <Button variant="outlined" size="extraLarge">
+      <Button variant="text" size="extraLarge">
         CTA Button
       </Button>
     </Box>
