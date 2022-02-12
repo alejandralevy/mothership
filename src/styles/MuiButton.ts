@@ -44,17 +44,30 @@ const root = {
   },
 };
 
-const primaryOutlined = {
-  "&.MuiButton-outlinedPrimary": {
-    color: primary,
-    backgroundColor: primary[50],
+const outlined = {
+  "&.MuiButton-outlined": {
     border: "none",
+  },
+  "&.MuiButton-outlinedPrimary": {
+    color: primary[700],
+    backgroundColor: primary[50],
     "&:hover": {
       backgroundColor: primary[100],
     },
     "&.Mui-disabled": {
       color: primary[300],
       backgroundColor: primary[25],
+    },
+  },
+  "&.MuiButton-outlinedError": {
+    color: error,
+    backgroundColor: error[50],
+    "&:hover": {
+      backgroundColor: error[100],
+    },
+    "&.Mui-disabled": {
+      color: error[300],
+      backgroundColor: error[25],
     },
   },
 };
@@ -64,11 +77,22 @@ const textButton = {
     boxShadow: shadows[0],
   },
   "&.MuiButton-textPrimary": {
+    color: primary[700],
     "&:hover": {
       backgroundColor: primary[50],
     },
     "&.Mui-disabled": {
       color: grey[300],
+      backgroundColor: "white",
+    },
+  },
+  "&.MuiButton-textError": {
+    color: error[700],
+    "&:hover": {
+      backgroundColor: error[50],
+    },
+    "&.Mui-disabled": {
+      color: error[300],
       backgroundColor: "white",
     },
   },
@@ -94,7 +118,7 @@ export const MuiButton = {
     styleOverrides: {
       root: {
         ...root,
-        ...primaryOutlined,
+        ...outlined,
         ...textButton,
         ...containedButton,
       },
