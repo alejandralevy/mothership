@@ -9,7 +9,7 @@ import {
 } from ".";
 
 export default {
-  title: "DesignSystem/ErrorButton",
+  title: "DesignSystem/Buttons/ErrorButton",
   component: Button,
 };
 

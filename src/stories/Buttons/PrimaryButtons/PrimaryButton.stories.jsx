@@ -9,16 +9,9 @@ import {
 } from ".";
 
 export default {
-  title: "DesignSystem/PrimaryButton",
+  title: "DesignSystem/Buttons/PrimaryButton",
   component: Button,
 };
-
-// export const PrimaryButton = PrimaryContained.bind({});
-// export const PrimaryButtonDisabled = PrimaryContainedDisabled.bind({});
-// export const PrimaryButtonOutlined = PrimaryOutlined.bind({});
-// export const PrimaryButtonOutlinedDisabled = PrimaryOutlinedDisabled.bind({});
-// export const PrimaryButtonText = PrimaryText.bind({});
-// export const PrimaryButtonTextDisabled = PrimaryTextDisabled.bind({});
 
 export const Contained = PrimaryContained.bind({});
 export const ContainedDisabled = PrimaryContainedDisabled.bind({});

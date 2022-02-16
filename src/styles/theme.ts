@@ -1,5 +1,6 @@
 import { palette, MuiButton, shape, typography, shadows } from "./index";
 import { createTheme, ThemeOptions } from "@mui/material/styles";
+import { MuiTypography } from "./MuiTypography";
 
 const MothershipTheme: ThemeOptions = {
   palette,
@@ -8,6 +9,7 @@ const MothershipTheme: ThemeOptions = {
   shape,
   components: {
     ...MuiButton,
+    ...MuiTypography,
   },
 };
 
