@@ -22,4 +22,3 @@ export const LG = () => (
     </Typography>
   </>
 );
-3;

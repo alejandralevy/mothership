@@ -22,4 +22,3 @@ export const MD = () => (
     </Typography>
   </>
 );
-3;

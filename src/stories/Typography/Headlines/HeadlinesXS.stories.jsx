@@ -22,4 +22,3 @@ export const XS = () => (
     </Typography>
   </>
 );
-3;

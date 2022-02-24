@@ -22,4 +22,3 @@ export const SM = () => (
     </Typography>
   </>
 );
-3;
