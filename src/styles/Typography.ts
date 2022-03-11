@@ -32,5 +32,32 @@ export const typography: TypographyOptions = {
   h6: {
     fontSize: "28px",
     lineHeight: "36px",
+  }
+};
+
+export const ui_text: TypographyOptions = {
+  h1: {
+    fontSize: "20px",
+    lineHeight: "30px",
   },
+  h2: {
+    fontSize: "18px",
+    lineHeight: "28px",
+  },
+  h3: {
+    fontSize: "16px",
+    lineHeight: "24px",
+  },
+  h4: {
+    fontSize: "14px",
+    lineHeight: "20px",
+  },
+  h5: {
+    fontSize: "12px",
+    lineHeight: "18px",
+  },
+  h6: {
+    fontSize: "28px",
+    lineHeight: "36px",
+  }
 };
