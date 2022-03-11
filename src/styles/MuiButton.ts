@@ -1,6 +1,6 @@
 import { palette } from "./Palette";
 import { shadows } from "./Shadows";
-const { primary, error, grey } = palette;
+const { primary, error, grey, secondary } = palette;
 
 declare module "@mui/material/Button" {
   interface ButtonPropsSizeOverrides {
@@ -70,6 +70,17 @@ const outlined = {
       backgroundColor: error[25],
     },
   },
+  "&.MuiButton-outlinedSecondary": {
+    color: secondary[700],
+    backgroundColor: secondary[50],
+    "&:hover": {
+      backgroundColor: secondary[100],
+    },
+    "&.Mui-disabled": {
+      color: secondary[300],
+      backgroundColor: secondary[25],
+    },
+  },
 };
 
 const textButton = {
@@ -96,6 +107,16 @@ const textButton = {
       backgroundColor: "white",
     },
   },
+  "&.MuiButton-textSecondary": {
+    color: secondary[700],
+    "&:hover": {
+      backgroundColor: secondary[50],
+    },
+    "&.Mui-disabled": {
+      color: secondary[300],
+      backgroundColor: "white",
+    },
+  },
 };
 
 const containedButton = {
@@ -109,6 +130,12 @@ const containedButton = {
     "&.Mui-disabled": {
       color: "white",
       backgroundColor: error[200],
+    },
+  },
+  "&.MuiButton-containedSecondary": {
+    "&.Mui-disabled": {
+      color: "white",
+      backgroundColor: secondary[200],
     },
   },
 };

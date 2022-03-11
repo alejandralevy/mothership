@@ -28,7 +28,7 @@ export const palette: PaletteOptions = {
     main: "#3168DF",
   },
   secondary: {
-    25: "#F6FAFE",
+    25: "#FCFAFF",
     50: "#F7F3FF",
     100: "#F1EBFF",
     200: "#DED2F4",
