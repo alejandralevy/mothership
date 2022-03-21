@@ -7,18 +7,20 @@ export default {
 
 export const SM = () => (
   <>
-    <Typography variant="h5" className="light">
-      Headline sm light
+    <Typography variant="h5" className="headlines headline-light headline-sm">
+      Headline SM Regular
     </Typography>
 
-    <Typography variant="h5">Headline sm regular</Typography>
-
-    <Typography variant="h5" className="semibold">
-      Headline sm semibold
+    <Typography variant="h5" className="headlines headline-regular headline-sm">
+      Headline SM Medium
     </Typography>
 
-    <Typography variant="h5" className="bold">
-      Headline sm bold
+    <Typography variant="h5" className="headlines headline-medium headline-sm">
+      Headline SM Semibold
+    </Typography>
+
+    <Typography variant="h5" className="headlines headline-bold headline-sm">
+      Headline SM Bold
     </Typography>
   </>
 );

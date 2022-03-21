@@ -7,18 +7,20 @@ export default {
 
 export const XS = () => (
   <>
-    <Typography variant="h6" className="light">
-      Headline xs light
+    <Typography variant="h6" className="headlines headline-light headline-xs">
+      Headline XS Regular
     </Typography>
 
-    <Typography variant="h6">Headline xs regular</Typography>
-
-    <Typography variant="h6" className="semibold">
-      Headline xs semibold
+    <Typography variant="h6" className="headlines headline-regular headline-xs">
+      Headline XS Medium
     </Typography>
 
-    <Typography variant="h6" className="bold">
-      Headline xs bold
+    <Typography variant="h6" className="headlines headline-medium headline-xs">
+      Headline XS Semibold
+    </Typography>
+
+    <Typography variant="h6" className="headlines headline-bold headline-xs">
+      Headline XS Bold
     </Typography>
   </>
 );

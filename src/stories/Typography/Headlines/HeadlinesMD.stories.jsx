@@ -7,18 +7,20 @@ export default {
 
 export const MD = () => (
   <>
-    <Typography variant="h4" className="light">
-      Headline md light
+    <Typography variant="h4" className="headlines headline-light headline-md">
+      Headline MD Regular
     </Typography>
 
-    <Typography variant="h4">Headline md regular</Typography>
-
-    <Typography variant="h4" className="semibold">
-      Headline md semibold
+    <Typography variant="h4" className="headlines headline-regular headline-md">
+      Headline MD Medium
     </Typography>
 
-    <Typography variant="h4" className="bold">
-      Headline md bold
+    <Typography variant="h4" className="headlines headline-medium headline-md">
+      Headline MD Semibold
+    </Typography>
+
+    <Typography variant="h4" className="headlines headline-bold headline-md">
+      Headline MD Bold
     </Typography>
   </>
 );

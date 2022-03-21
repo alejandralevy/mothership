@@ -7,18 +7,20 @@ export default {
 
 export const XL2 = () => (
   <>
-    <Typography variant="h1" className="light">
-      Headline 2xl light
+    <Typography variant="h1" className="headlines headline-light headline-2xl">
+      Headline 2XL Regular
     </Typography>
 
-    <Typography variant="h1">Headline 2xl regular</Typography>
-
-    <Typography variant="h1" className="semibold">
-      Headline 2xl semibold
+    <Typography variant="h1" className="headlines headline-regular headline-2xl">
+      Headline 2xl Medium
     </Typography>
 
-    <Typography variant="h1" className="bold">
-      Headline 2xl bold
+    <Typography variant="h1" className="headlines headline-medium headline-2xl">
+      Headline 2XL Semibold
+    </Typography>
+
+    <Typography variant="h1" className="headlines headline-bold headline-2xl">
+      Headline 2XL Bold
     </Typography>
   </>
 );
