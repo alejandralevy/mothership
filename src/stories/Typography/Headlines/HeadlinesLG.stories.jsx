@@ -7,18 +7,20 @@ export default {
 
 export const LG = () => (
   <>
-    <Typography variant="h3" className="light">
-      Headline lg light
+    <Typography variant="h3" className="headlines headline-light headline-lg">
+      Headline LG Regular
     </Typography>
 
-    <Typography variant="h3">Headline lg regular</Typography>
-
-    <Typography variant="h3" className="semibold">
-      Headline lg semibold
+    <Typography variant="h3" className="headlines headline-regular headline-lg">
+      Headline LG Medium
     </Typography>
 
-    <Typography variant="h3" className="bold">
-      Headline lg bold
+    <Typography variant="h3" className="headlines headline-medium headline-lg">
+      Headline LG Semibold
+    </Typography>
+
+    <Typography variant="h3" className="headlines headline-bold headline-lg">
+      Headline LG Bold
     </Typography>
   </>
 );
