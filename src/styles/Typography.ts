@@ -21,6 +21,39 @@ export const monster: TypographyOptions = {
   }
 }
 
+export const display: TypographyOptions = {
+  fontFamily: "Inter",
+  fontWeightLight: 400,
+  fontWeightRegular: 500,
+  fontWeightMedium: 600,
+  fontWeightBold: 700,
+  h1: {
+    fontSize: "96px",
+    lineHeight: "112px",
+    letterSpacing: "-0.03em"
+  },
+  h2: {
+    fontSize: "88px",
+    lineHeight: "92px",
+    letterSpacing: "-0.03em"
+  },
+  h3: {
+    fontSize: "72px",
+    lineHeight: "90px",
+    letterSpacing: "-0.03em"
+  },
+  h4: {
+    fontSize: "60px",
+    lineHeight: "72px",
+    letterSpacing: "-0.02em"
+  },
+  h5: {
+    fontSize: "54px",
+    lineHeight: "60px",
+    letterSpacing: "-0.02em"
+  }
+}
+
 export const typography: TypographyOptions = {
   fontFamily: "Inter",
   fontWeightLight: 400,
@@ -84,3 +117,22 @@ export const ui_text: TypographyOptions = {
     lineHeight: "18px",
   }
 };
+
+export const paragraph: TypographyOptions = {
+  fontFamily: "Inter",
+  fontWeightLight: 400,
+  fontWeightRegular: 500,
+  fontWeightBold: 700,
+}
+
+export const italic: TypographyOptions = {
+  fontFamily: "Inter",
+}
+
+export const underline: TypographyOptions = {
+  fontFamily: "Inter",
+}
+
+export const strikeThrough: TypographyOptions = {
+  fontFamily: "Inter",
+}
