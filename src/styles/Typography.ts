@@ -1,5 +1,5 @@
 import { TypographyOptions } from "@mui/material/styles/createTypography";
-
+import 'Typography.css';
 
 export const monster: TypographyOptions = {
   fontFamily: "Inter",
